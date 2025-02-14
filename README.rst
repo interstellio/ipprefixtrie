@@ -23,6 +23,8 @@ This structure is commonly used in networking applications where prefix-based lo
 
 We welcome anyone who wishes to optimise or introduce other types of trees.
 
+**Documentation:** https://ipprefixtrie.readthedocs.io
+
 -------------------------------------------------
 Installation
 -------------------------------------------------
