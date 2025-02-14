@@ -45,5 +45,5 @@ classifiers = [
     'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
     'Natural Language :: English',
     'Operating System :: POSIX :: Linux',
-    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.10',
     'Topic :: System :: Networking']
