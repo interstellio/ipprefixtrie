@@ -37,15 +37,17 @@ An IP prefix trie represents IP addresses as binary values, with each bit determ
     10.0.0.0/8      ->  00001010 00000000 00000000 00000000
     2001:db8::/32   ->  00100000 00000001 00001101 10111000 00000000 ...
 
-**The IPv4 trie structure organises these as follows:**
+**The IP trie structure organises these as follows:**
 
 .. code::
 
-        (root)
-        /    \
-    (10/8)  (192/24)
+                        (root)
+                        /    \
+                     (0)      (1)
+                    /   \    /   \
+                  (0)   (1) (0)  (1)
 
-Each node represents a bit in the prefix, with paths leading to a stored prefix.
+Each node represents a bit in the prefix, with paths leading to a stored prefix. The depth of the nodes depends on the prefix length and for IPv4 can be upto 32 and IPv6 upto 128.
 
 Different Types of Prefix Tries
 -------------------------------
