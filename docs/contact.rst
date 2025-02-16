@@ -2,7 +2,7 @@ Contact us
 ==========
 For inquiries about **IPPrefixTrie**, please contact **Interstellio IO** at:
 
-- **GitHUB:** https://github.com/orgs/interstellio/dashboard
+- **GitHUB:** https://github.com/orgs/interstellio
 - **Website:** https://www.interstellio.io
 - **Email:** opensource@interstellio.io
 
