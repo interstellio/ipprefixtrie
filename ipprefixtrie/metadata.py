@@ -28,10 +28,10 @@ project_no_spaces = project.replace(' ', '')
 version = '1.0.0'
 description = project
 author = 'Interstellio IO (PTY) LTD'
-email = 'info@interstellio.io'
+email = 'opensource@interstellio.io'
 license = 'LGPLv3'
 copyright = '2025-%s %s' % (datetime.now().year, author,)
-url = 'https://www.interstellio.io/bgphoria'
+url = 'https://github.com/interstellio/ipprefixtrie'
 identity = project + ' v' + version
 
 # Classifiers

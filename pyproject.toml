@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "ipprefixtrie"
 version = "1.0.0"
 authors = [{name = "Interstellio IO (PTY) LTD", email = "opensource@interstellio.io"}]
-description = "A short description of your package"
+description = "IP Prefix Trie (Binary Prefix Tree for IP Prefixes)"
 readme = "README.rst"
 requires-python = ">=3.10"
 dependencies = []
